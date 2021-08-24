@@ -15,6 +15,7 @@ https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 2. type command: npm install 
 3. Step 2 installs all dependencies required to run the project on your local machine
 3. run server by typing the following into the terminal (current dir is hack_app): python3 ./manage.py runserver
-4. When the server is successfully running, click on the url to view the web page.
-5. You should see 'Testing react code' displayed at the root url.
-6. Add the endpoint '/api' to the end of the root url to view the backend interface and REST api.
+4. In another terminal cd into 'frontend', type the command: npm run dev
+5. When the server is successfully running, click on the url to view the web page.
+6. You should see 'Testing react code' displayed at the root url.
+7. Add the endpoint '/api' to the end of the root url to view the backend interface and REST api.
