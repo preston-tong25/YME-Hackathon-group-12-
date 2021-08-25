@@ -1,0 +1,27 @@
+body{
+    background-color: #CCF2F4;
+}
+
+h1{
+    text-align: center;
+    padding: 1em 2em 4em 2em;
+}
+.row {
+    margin: 0 -5px;
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 40px;
+  }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 15px;
+}
